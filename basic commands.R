@@ -1,0 +1,22 @@
+x = c(9,20,21,25,30,50)
+y = c(3,5,6,7,8,9)
+cat("the variable x=",x,"\n")
+cat("the variable y=",y,"\n")
+cat("addition of x and y is",x+y,"\n")
+cat("product of x and y is",x*y,"\n")
+cat("mod of x and y is",x%%y,"\n")
+cat("division of x and y is",x%/%y,"\n")
+cat("Is x greater than y",x<y,"\n")
+cat("Is x and y are equal",x==y,"\n")
+cat("Is x and y are not equal",x!=y,"\n")
+print(x&y)
+print(x|y)
+print(x&&y)
+print(x||y)
+z = 4:10
+w=5
+u=-6
+print(w%in%z)
+print(u%in%z)
+t=seq(0,50,5)
+print(t)
